@@ -1,16 +1,27 @@
-# biometric_authentication
+# 🔐 Biometric Authentication App
 
-A new Flutter project.
+A Flutter-based mobile app that provides secure user authentication using **biometrics** (fingerprint/face recognition) and a fallback **4-digit PIN**. It uses the `local_auth` package for biometric integration and `pinput` for a smooth PIN entry experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔢 4-digit PIN authentication
+- 👆 Biometric login using fingerprint.
+- 🔄 Loading indicator during biometric authentication
+- ✅ Redirects to a success screen on successful authentication
+- ❌ Handles failed PIN input and biometric exceptions gracefully
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+Make sure you have:
+
+- Flutter SDK installed (version 3.13 or later recommended)
+- An emulator or physical device that supports biometrics
+- Android/iOS setup for Flutter
+
+
